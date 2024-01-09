@@ -1,3 +1,3 @@
 export default async function Page() {
-  return <div>LİST</div>;
+  return <div>Remark LİST</div>;
 }

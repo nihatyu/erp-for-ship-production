@@ -12,13 +12,12 @@ export default function SideNav() {
       >
         UMK Mühendislik
       </Link>
-      <div className="flex grow flex-row justify-between space-x-2 md:flex-col md:space-x-0 md:space-y-2">
+      <div className="flex grow flex-row space-x-2 md:flex-col md:space-x-0 md:space-y-2 ">
         <NavLinks />
-        <div className="hidden h-auto w-full grow rounded-md bg-gray-50 md:block"></div>
         <form>
-          <button className="flex md:w-full text-black h-[48px] grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3">
+          <button className="flex md:w-full mt-10 text-black h-[48px] grow items-center justify-center gap-2 rounded-md bg-gray-50 p-3 text-sm font-medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3">
             <FontAwesomeIcon icon={faSignOut} className="w-6" />
-            <div className=" md:block">Çıkış Yap</div>
+            <div className="hidden md:block">Çıkış Yap</div>
           </button>
         </form>
       </div>
