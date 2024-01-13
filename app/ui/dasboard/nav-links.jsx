@@ -8,9 +8,8 @@ import {
   faHome,
   faList,
   faPlus,
-  faRankingStar,
 } from "@fortawesome/free-solid-svg-icons";
-import { faFlag, faImage } from "@fortawesome/free-regular-svg-icons";
+import { faFlag } from "@fortawesome/free-regular-svg-icons";
 
 // Map of links to display in the side navigation.
 // Depending on the size of the application, this would be stored in a database.
@@ -20,16 +19,6 @@ const links = [
   { name: "Liste", href: "/dashboard/list", icon: faList },
   { name: "Projeler", href: "/dashboard/projects", icon: faDiagramProject },
   { name: "Raporlar", href: "/dashboard/reports", icon: faFlag },
-  {
-    name: "Resim Remarkları",
-    href: "/dashboard/picture-remarks",
-    icon: faImage,
-  },
-  {
-    name: "Kalite Departman Remarkları",
-    href: "/dashboard/quality-department-remarks",
-    icon: faRankingStar,
-  },
 ];
 
 export default function NavLinks() {
