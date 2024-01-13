@@ -11,8 +11,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { faFlag } from "@fortawesome/free-regular-svg-icons";
 
-// Map of links to display in the side navigation.
-// Depending on the size of the application, this would be stored in a database.
 const links = [
   { name: "Kontrol Paneli", href: "/dashboard", icon: faHome },
   { name: "Ekle", href: "/dashboard/add", icon: faPlus },
