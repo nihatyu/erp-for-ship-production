@@ -1,3 +1,4 @@
+// Buradaki dataların tamamına fetch yardımı ile backend'den çekilebilir
 export const projeler = ["NB001", "NB002"];
 export const tipiSecenekleri = ["Klass", "Departman", "Armatör"];
 export const konusuSecenekleri = [
@@ -25,6 +26,7 @@ export const durumSecenekleri = [
   "Toplam",
 ];
 
+// Eğer bir endpoint'den data gönderilecek olsaydı bu şekilde yapılabilirdi
 export const saveRemark = async (formData) => {
   const randomNum = Math.floor(Math.random() * 100) + 1;
 
